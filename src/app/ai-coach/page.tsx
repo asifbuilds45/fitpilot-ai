@@ -57,7 +57,7 @@ export default function AICoachPage() {
     setIsLoading(true)
 
     try {
-      const model = genAI.getGenerativeModel({ model: "gemini-pro" })
+      const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" })
 
       const context = profile
         ? `You are an expert personal trainer and nutritionist. 
